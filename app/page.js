@@ -1,4 +1,5 @@
 'use client'
+export const dynamic = 'force-dynamic'
 import { useState, useEffect } from 'react'
 
 const COLORS = { navy: '#0A1F44', teal: '#14B8A6', bg: '#F8FAFC' }
