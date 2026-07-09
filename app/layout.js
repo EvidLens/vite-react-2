@@ -1,9 +1,20 @@
-export const metadata = { title: 'My SaaS' }
+export const metadata = { 
+  title: 'EvidLens',
+  description: "Kenya's Decision Intelligence Platform"
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{margin: 0, fontFamily: 'Arial'}}>{children}</body>
+      <body style={{
+        margin: 0, 
+        background: '#F8FAFC', 
+        maxWidth: '480px', 
+        margin: '0 auto',
+        fontFamily: 'system-ui, -apple-system, sans-serif'
+      }}>
+        {children}
+      </body>
     </html>
   )
 }
