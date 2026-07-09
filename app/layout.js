@@ -9,8 +9,6 @@ export default function RootLayout({ children }) {
       <body style={{
         margin: 0, 
         background: '#F8FAFC', 
-        maxWidth: '480px', 
-        margin: '0 auto',
         fontFamily: 'system-ui, -apple-system, sans-serif'
       }}>
         {children}
